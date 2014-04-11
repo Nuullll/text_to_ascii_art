@@ -8,17 +8,29 @@
 
 namespace text_to_ascii_art {
 
+// Maintain a typeface from a certain file.
+// The typeface can been seen as a wrapper of the file
 class Typeface
 {
  public:
     Typeface();
     explicit Typeface(const char *filename);
-    ~Typeface();
+
+    // Return the number of characters loaded.
+    // If is_loaded_ is already true, nothing will be read, and 0 will be
+    // returned.
+    int Load(const char *filename);
+
+    // Get a certain character.
+    // If the character do not exist in the typeface, nullptr will be returned.
+    const Character * GetCharacter(char ch) const;
+
+    bool is_loaded() const { return is_loaded_; }
+    int max_height() const { return max_height_; }
 
  private:
-    bool loaded_;
-    std::string typeface_name_;
-    int font_size_;
+    bool is_loaded_;
+    int max_height_;
     std::map<char, Character> characters;
 };
 
