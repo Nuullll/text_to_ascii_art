@@ -25,9 +25,9 @@ class Converter
                       const char *filename = nullptr);
 
     // Convert the given text into ASCII art.
-    std::string Convert(std::string text);
+    std::string Convert(const std::string &text);
     // Convert the text, and print it into the os.
-    void Print(std::string text, std::ostream &os);
+    void Print(const std::string &text, std::ostream &os);
 
     // Return the vector of loaded typefaces.
     // The pair contains the name of the typeface and the character number
