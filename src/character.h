@@ -15,7 +15,7 @@ class Character
     // Save every line into a separate string (without the last '\n').
     // If the width of the lines do not match, blank in end of the shorter
     // lines will be filled with space.
-    explicit Character(const std::string &);
+    explicit Character(const std::string &character_map_);
 
     const std::vector<std::string> & character_map() const;
 
