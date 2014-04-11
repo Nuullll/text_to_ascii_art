@@ -1,5 +1,5 @@
-#ifndef TEXT_TO_ASCII_ART_SRC_TYPEFACE_H_
-#define TEXT_TO_ASCII_ART_SRC_TYPEFACE_H_
+#ifndef TEXT_TO_ASCII_ART_SRC_FONT_H_
+#define TEXT_TO_ASCII_ART_SRC_FONT_H_
 
 #include <map>
 #include <string>
@@ -8,13 +8,13 @@
 
 namespace text_to_ascii_art {
 
-// Maintain a typeface from a certain file.
-// The typeface can been seen as a wrapper of the file
-class Typeface
+// Maintain a font from a certain file.
+// The font can been seen as a wrapper of the file
+class Font
 {
  public:
-    Typeface();
-    explicit Typeface(const char *filename);
+    Font();
+    explicit Font(const char *filename);
 
     // Return the number of characters loaded.
     // If is_loaded_ is already true, nothing will be read, and 0 will be
@@ -22,7 +22,7 @@ class Typeface
     int Load(const char *filename);
 
     // Get a certain character.
-    // If the character do not exist in the typeface, nullptr will be returned.
+    // If the character do not exist in the font, nullptr will be returned.
     const Character * GetCharacter(char ch) const;
 
     bool is_loaded() const { return is_loaded_; }
@@ -36,4 +36,4 @@ class Typeface
 
 }  // namespace text_to_ascii_art
 
-#endif  // TEXT_TO_ASCII_ART_SRC_TYPEFACE_H_
+#endif  // TEXT_TO_ASCII_ART_SRC_FONT_H_

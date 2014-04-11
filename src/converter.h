@@ -16,12 +16,12 @@ class Converter
  public:
     Converter();
 
-    // Load a certain typeface.
-    // If the filename is not given, it will try to load the typeface file
+    // Load a certain font.
+    // If the filename is not given, it will try to load the font file
     // in a default path.
-    // If a typeface with a same name already exists, the old typename will
+    // If a font with a same name already exists, the old typename will
     // be removed and the new one will be loaded.
-    bool LoadTypeface(const std::string &typeface_name,
+    bool LoadFont(const std::string &font_name,
                       const char *filename = nullptr);
 
     // Convert the given text into ASCII art.
@@ -29,13 +29,13 @@ class Converter
     // Convert the text, and print it into the os.
     void Print(const std::string &text, std::ostream &os);
 
-    // Return the vector of loaded typefaces.
-    // The pair contains the name of the typeface and the character number
-    // in that typeface.
-    std::vector<std::pair<std::string, int>> LoadedTypeface() const;
+    // Return the vector of loaded fonts.
+    // The pair contains the name of the font and the character number
+    // in that font.
+    std::vector<std::pair<std::string, int>> LoadedFonts() const;
 
  private:
-    std::map<std::string, Typeface> typefaces_;
+    std::map<std::string, Font> fonts_;
 };
 
 }  // namespace text_to_ascii_art
