@@ -1,0 +1,1081 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"rand",
+				"random_device"
+			],
+			[
+				"di",
+				"DIRECTION_NUM"
+			],
+			[
+				"has",
+				"has_signed_"
+			],
+			[
+				"retu",
+				"return_num"
+			],
+			[
+				"v",
+				"videotape_lent"
+			],
+			[
+				"len",
+				"lend_num"
+			],
+			[
+				"stock",
+				"stock_num_"
+			],
+			[
+				"Sto",
+				"stock_num_"
+			],
+			[
+				"sto",
+				"stock_num_"
+			],
+			[
+				"com",
+				"compRuntime"
+			],
+			[
+				"is",
+				"ios_base"
+			],
+			[
+				"ios",
+				"ios_base"
+			],
+			[
+				"mo",
+				"moved_direction"
+			],
+			[
+				"best",
+				"best_node"
+			],
+			[
+				"push",
+				"push_back"
+			],
+			[
+				"so",
+				"solution_"
+			],
+			[
+				"Gri",
+				"GameGrid"
+			],
+			[
+				"sl",
+				"solution_count"
+			],
+			[
+				"sol",
+				"solutions"
+			],
+			[
+				"uppr",
+				"upper_right_"
+			],
+			[
+				"upp",
+				"upper_right"
+			],
+			[
+				"lowel",
+				"lower_left"
+			],
+			[
+				"Pr",
+				"PriorityQueue"
+			],
+			[
+				"for",
+				"for_each"
+			],
+			[
+				"new",
+				"new_node"
+			],
+			[
+				"pno",
+				"p_node"
+			],
+			[
+				"iter",
+				"iterator"
+			],
+			[
+				"nod",
+				"p_node"
+			],
+			[
+				"bal",
+				"ball_dynamic_array"
+			],
+			[
+				"radiu",
+				"radius_distribution"
+			],
+			[
+				"co",
+				"coordinate_min"
+			],
+			[
+				"P",
+				"Print"
+			],
+			[
+				"Pint",
+				"Point"
+			],
+			[
+				"print",
+				"Print"
+			],
+			[
+				"rad",
+				"radius"
+			],
+			[
+				"ra",
+				"radius"
+			],
+			[
+				"low",
+				"lower_left"
+			],
+			[
+				"lo",
+				"lower_left"
+			],
+			[
+				"grid",
+				"grid_"
+			],
+			[
+				"d",
+				"direction"
+			],
+			[
+				"ed",
+				"endl"
+			],
+			[
+				"solu",
+				"solution"
+			],
+			[
+				"g",
+				"GameGrid"
+			],
+			[
+				"ste",
+				"steps_"
+			],
+			[
+				"cl",
+				"closed_"
+			],
+			[
+				"zer",
+				"zero_row"
+			],
+			[
+				"lowerx",
+				"lower_left_x"
+			],
+			[
+				"lowey",
+				"lower_left_y"
+			],
+			[
+				"Fa",
+				"Factorize"
+			],
+			[
+				"main",
+				"main	main()"
+			],
+			[
+				"m",
+				"main	main()"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "src/converter.cpp",
+			"settings":
+			{
+				"buffer_size": 23,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "#ifndef TEXT_TO_ASCII_ART_SRC_CONVERTER_H_\n#define TEXT_TO_ASCII_ART_SRC_CONVERTER_H_\n\n#include <string>\n\nnamespace text_to_ascii_art {\n\nclass Converter\n{\n public:\n    Converter();\n    ~Converter();\n\n    std::string Convert(std::string text);\n\n private:\n    int font_size_;\n    std::string typeface_;\n    \n};\n\n}  // namespace text_to_ascii_art\n\n#endif  // TEXT_TO_ASCII_ART_SRC_CONVERTER_H_\n",
+			"file": "src/converter.h",
+			"file_size": 135,
+			"file_write_time": 130416685950000000,
+			"settings":
+			{
+				"buffer_size": 391,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"titl",
+				"Convert Case: Title Case"
+			],
+			[
+				"debug",
+				"SublimeGDB: Stop Debugging"
+			],
+			[
+				"gdb",
+				"SublimeGDB: Show Input Field"
+			],
+			[
+				"ena",
+				"Package Control: Enable Package"
+			],
+			[
+				"ss c+",
+				"Set Syntax: C++"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"enable",
+				"Package Control: Enable Package"
+			],
+			[
+				"disablepa",
+				"Package Control: Disable Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"packe",
+				"Package Control: Discover Packages"
+			],
+			[
+				"pre",
+				"Markdown Preview: Python Markdown: Preview in Browser"
+			],
+			[
+				"lpre",
+				"SublimeLinter: Previous Error"
+			],
+			[
+				"prevv",
+				"Markdown Preview: Python Markdown: Preview in Browser"
+			],
+			[
+				"prev",
+				"Markdown Preview: Github Flavored Markdown: Preview in Browser"
+			],
+			[
+				"review",
+				"Markdown Preview: Python Markdown: Preview in Browser"
+			],
+			[
+				"ssmat",
+				"Set Syntax: MATLAB"
+			],
+			[
+				"ssmar",
+				"Set Syntax: Markdown"
+			],
+			[
+				"preview",
+				"Markdown Preview: Python Markdown: Preview in Browser"
+			],
+			[
+				"preview in",
+				"Markdown Preview: Github Flavored Markdown: Preview in Browser"
+			],
+			[
+				"dis",
+				"SublimeLinter: Disable Linter"
+			],
+			[
+				"dia",
+				"SublimeLinter: Disable Linter"
+			],
+			[
+				"ssc++",
+				"Set Syntax: C++"
+			],
+			[
+				"ssc",
+				"Set Syntax: C"
+			],
+			[
+				"ssma",
+				"Set Syntax: Markdown"
+			],
+			[
+				"sspl",
+				"Set Syntax: Plain Text"
+			],
+			[
+				"list",
+				"Package Control: List Packages"
+			],
+			[
+				"packagelist",
+				"Package Control: List Packages"
+			],
+			[
+				"enablin",
+				"SublimeLinter: Enable Linter"
+			],
+			[
+				"diablelin",
+				"SublimeLinter: Disable Linter"
+			],
+			[
+				"diablin",
+				"SublimeLinter: Disable Linter"
+			],
+			[
+				"disable",
+				"SublimeLinter: Disable Linter"
+			],
+			[
+				"sspy",
+				"Set Syntax: Python"
+			],
+			[
+				"prein",
+				"Markdown Preview: Python Markdown: Preview in Browser"
+			],
+			[
+				"ssmarkd",
+				"Set Syntax: Markdown"
+			],
+			[
+				"ssp",
+				"Set Syntax: Plain Text"
+			],
+			[
+				"ss",
+				"Set Syntax: Markdown"
+			],
+			[
+				"ssmard",
+				"Set Syntax: Markdown"
+			],
+			[
+				"markdown",
+				"Markdown Preview: Open Markdown Cheat sheet"
+			],
+			[
+				"ssmarkg",
+				"Set Syntax: Markdown GFM"
+			],
+			[
+				"enap",
+				"Package Control: Enable Package"
+			],
+			[
+				"disablp",
+				"Package Control: Disable Package"
+			],
+			[
+				"enablep",
+				"Package Control: Enable Package"
+			],
+			[
+				"snippet",
+				"Snippet: Read File Into Vector"
+			],
+			[
+				"lint",
+				"SublimeLinter: Toggle Linter"
+			],
+			[
+				"disabpa",
+				"Package Control: Disable Package"
+			],
+			[
+				"sublgdb",
+				"Preferences: SublimeGDB Settings – Default"
+			],
+			[
+				"instl",
+				"Package Control: Install Package"
+			],
+			[
+				"enabl",
+				"Package Control: Enable Package"
+			],
+			[
+				"disa",
+				"SublimeLinter: Disable Linter"
+			],
+			[
+				"linterdis",
+				"SublimeLinter: Disable Linter"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"linter",
+				"SublimeLinter: Toggle Linter"
+			],
+			[
+				"enablelin",
+				"SublimeLinter: Enable Linter"
+			],
+			[
+				"diale",
+				"SublimeLinter: Disable Linter"
+			],
+			[
+				"Package Control: ",
+				"Package Control: List Packages"
+			],
+			[
+				"packena",
+				"Package Control: Enable Package"
+			],
+			[
+				"diable",
+				"Package Control: Disable Package"
+			],
+			[
+				"paclist",
+				"Package Control: List Packages"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"packelist",
+				"Package Control: List Packages"
+			],
+			[
+				"",
+				"Package Control: List Packages"
+			],
+			[
+				"Package Control: list",
+				"Package Control: List Packages"
+			]
+		],
+		"width": 647.0
+	},
+	"console":
+	{
+		"height": 167.0,
+		"history":
+		[
+			"--version",
+			"1+2",
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": true,
+		"side_bar_visible": false,
+		"status_bar_visible": true
+	},
+	"file_history":
+	[
+		"/Users/lisihan969/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/lisihan969/src/projects/passing_attendance_sheet/src/a.h",
+		"/Users/lisihan969/src/projects/text_to_ascii_art/README.md",
+		"/Users/lisihan969/programing/C++_programing/exercise/test.cpp",
+		"/Users/lisihan969/programing/C++_programing/exercise/temp.c",
+		"/Users/lisihan969/Library/Application Support/Sublime Text 3/Packages/SublimeGDB/SublimeGDB.sublime-settings",
+		"/Users/lisihan969/programing/C++_programing/exercise/help_master_lu/main.cpp",
+		"/Users/lisihan969/programing/C++_programing/exercise/help_master_lu/help_master_lu.sublime-project",
+		"/Users/lisihan969/Library/Application Support/Sublime Text 3/Packages/Terminal/Terminal.sublime-settings",
+		"/Users/lisihan969/Library/Application Support/Sublime Text 3/Packages/SideBarEnhancements/Side Bar.sublime-settings",
+		"/Users/lisihan969/Library/Application Support/Sublime Text 3/Packages/SublimeLinter/SublimeLinter.sublime-settings",
+		"/Users/lisihan969/Library/Application Support/Sublime Text 3/Packages/SublimeCodeIntel/SublimeCodeIntel.sublime-settings",
+		"/Users/lisihan969/Downloads/课件/面向对象程序设计/homework/Code_Reading_Assignment/protobuf-2.5.0/src/google/protobuf/message.h",
+		"/Users/lisihan969/Downloads/课件/面向对象程序设计/homework/Code_Reading_Assignment/protobuf-2.5.0/src/google/protobuf/message.cc",
+		"/Users/lisihan969/Downloads/课件/面向对象程序设计/homework/Code_Reading_Assignment/protobuf-2.5.0/src/google/protobuf/io/coded_stream.h",
+		"/Users/lisihan969/Downloads/课件/面向对象程序设计/homework/Code_Reading_Assignment/protobuf-2.5.0/src/google/protobuf/io/coded_stream.cc",
+		"/Users/lisihan969/Downloads/课件/面向对象程序设计/homework/Code_Reading_Assignment/protobuf-2.5.0/src/google/protobuf/stubs/common.h",
+		"/Users/lisihan969/Downloads/课件/面向对象程序设计/homework/Code_Reading_Assignment/protobuf-2.5.0/src/google/protobuf/descriptor.cc",
+		"/Users/lisihan969/Downloads/课件/面向对象程序设计/homework/Code_Reading_Assignment/code_reading.sublime-project",
+		"/Users/lisihan969/Downloads/课件/面向对象程序设计/homework/Code_Reading_Assignment/protobuf-2.5.0/src/google/protobuf/stubs/common.cc",
+		"/Users/lisihan969/Downloads/课件/面向对象程序设计/homework/Code_Reading_Assignment/protobuf-2.5.0/src/google/protobuf/extension_set_unittest.cc",
+		"/Users/lisihan969/Library/Application Support/Sublime Text 3/Packages/Default/Default (OSX).sublime-keymap",
+		"/Users/lisihan969/Library/Application Support/Sublime Text 3/Packages/User/Default (OSX).sublime-keymap",
+		"/Users/lisihan969/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/Users/lisihan969/Library/Application Support/Sublime Text 3/Packages/User/Distraction Free.sublime-settings",
+		"/Users/lisihan969/Library/Application Support/Sublime Text 3/Packages/User/C++.sublime-settings",
+		"/Users/lisihan969/Downloads/课件/面向对象程序设计/homework/Code_Reading_Assignment/protobuf-2.5.0/src/google/protobuf/stubs/hash.h",
+		"/Users/lisihan969/Downloads/课件/面向对象程序设计/homework/Code_Reading_Assignment/protobuf-2.5.0/src/google/protobuf/test_util_lite.h",
+		"/Users/lisihan969/Downloads/课件/面向对象程序设计/homework/Code_Reading_Assignment/protobuf-2.5.0/src/google/protobuf/testing/googletest.cc",
+		"/Users/lisihan969/Downloads/课件/面向对象程序设计/homework/Code_Reading_Assignment/protobuf-2.5.0/src/google/protobuf/testing/googletest.h",
+		"/Users/lisihan969/Downloads/课件/面向对象程序设计/homework/Code_Reading_Assignment/protobuf-2.5.0/src/google/protobuf/testing/file.h",
+		"/Users/lisihan969/Downloads/课件/面向对象程序设计/homework/Code_Reading_Assignment/protobuf-2.5.0/src/google/protobuf/testing/file.cc",
+		"/Users/lisihan969/Downloads/课件/面向对象程序设计/homework/Code_Reading_Assignment/protobuf-2.5.0/src/google/protobuf/stubs/atomicops.h",
+		"/Users/lisihan969/Downloads/课件/面向对象程序设计/homework/Code_Reading_Assignment/protobuf-2.5.0/src/google/protobuf/stubs/atomicops_internals_atomicword_compat.h",
+		"/Users/lisihan969/Downloads/课件/面向对象程序设计/homework/Code_Reading_Assignment/protobuf-2.5.0/src/google/protobuf/stubs/atomicops_internals_x86_gcc.cc",
+		"/Users/lisihan969/Downloads/课件/面向对象程序设计/homework/Code_Reading_Assignment/protobuf-2.5.0/src/google/protobuf/unittest_custom_options.proto",
+		"/Users/lisihan969/Library/Application Support/Sublime Text 3/Packages/User/SublimeLinter.sublime-settings",
+		"/Users/lisihan969/Downloads/科协福利/matlab/讲义Markdown版.md",
+		"/Users/lisihan969/Downloads/科协福利/matlab/作业/homework1.md",
+		"/Users/lisihan969/Downloads/科协福利/matlab/作业/homework1.txt",
+		"/Users/lisihan969/Desktop/programing/C++_programing/homework/week_2/2013011187_李思涵_revised/Problem3/main.cpp",
+		"/Users/lisihan969/Desktop/programing/C++_programing/homework/week_2/2013011187_李思涵_revised/Problem2/main.cpp",
+		"/Users/lisihan969/Desktop/programing/C++_programing/homework/week_2/2013011187_李思涵_revised/changes.md",
+		"/Users/lisihan969/Desktop/programing/C++_programing/homework/week_2/2013011187_李思涵_revised/Problem1/compRuntime.cpp",
+		"/Users/lisihan969/Desktop/programing/C++_programing/homework/week_2/2013011187_李思涵_revised/Problem4/main.cpp",
+		"/Users/lisihan969/Desktop/programing/C++_programing/homework/week_2/2013011187_李思涵_revised/Problem4/test_result.txt",
+		"/Users/lisihan969/Desktop/programing/C++_programing/homework/week_2/2013011187_李思涵_revised/Problem4/test.h",
+		"/Users/lisihan969/Desktop/programing/C++_programing/homework/week_2/2013011187_李思涵_revised/Problem3/makefile",
+		"/Users/lisihan969/Desktop/programing/C++_programing/homework/week_2/2013011187_李思涵_revised/Problem2/videotape.h",
+		"/Users/lisihan969/Desktop/programing/C++_programing/homework/week_2/2013011187_李思涵_revised/Problem2/videotape.cpp",
+		"/Users/lisihan969/Desktop/programing/C++_programing/homework/week_2/2013011187_李思涵_revised/Problem3/hen.cpp",
+		"/Users/lisihan969/Desktop/programing/C++_programing/homework/week_2/2013011187_李思涵_revised/Problem4/test.cpp",
+		"/Users/lisihan969/Desktop/programing/C++_programing/homework/week_2/2013011187_李思涵_revised/Problem4/makefile",
+		"/Users/lisihan969/Desktop/programing/C++_programing/homework/week_2/2013011187_李思涵_revised/Problem2/makefile",
+		"/Users/lisihan969/Desktop/programing/C++_programing/homework/week_2/2013011187_李思涵_revised/Problem1/makefile",
+		"/Users/lisihan969/Desktop/programing/C++_programing/homework/week_2/2013011187_李思涵_revised/Problem3/hen.h",
+		"/Users/lisihan969/Downloads/科协福利/linux/Linux培训.md",
+		"/Users/lisihan969/Desktop/programing/matlab/plotSin.m",
+		"/Users/lisihan969/Desktop/programing/python/exercise/script1.py",
+		"/Users/lisihan969/Desktop/programing/python/exercise/myfile.py",
+		"/Users/lisihan969/Desktop/programing/C++_programing/exercise/test.cpp",
+		"/Users/lisihan969/Desktop/programing/python/exercise/is_prime.py",
+		"/Users/lisihan969/Desktop/programing/C++_programing/homework/artificial_intelligence/homework2/astar_practise/src/a_star.h",
+		"/Users/lisihan969/Desktop/programing/C++_programing/homework/artificial_intelligence/homework2/astar_practise/src/main.cpp",
+		"/Users/lisihan969/Desktop/programing/C++_programing/homework/artificial_intelligence/homework2/astar_practise/src/game_grid.h",
+		"/Users/lisihan969/Desktop/programing/C++_programing/homework/artificial_intelligence/homework2/astar_practise/src/a_star.cpp",
+		"/usr/local/isatap/config-ist.sh",
+		"/Users/lisihan969/Desktop/programing/C++_programing/homework/artificial_intelligence/homework2/astar_practise/makefile",
+		"/Users/lisihan969/Desktop/programing/C++_programing/homework/artificial_intelligence/homework2/makefile",
+		"/Users/lisihan969/Desktop/programing/C++_programing/homework/artificial_intelligence/homework2/Readme.txt",
+		"/Users/lisihan969/Desktop/programing/C++_programing/homework/artificial_intelligence/homework2/src/main.cpp",
+		"/Users/lisihan969/Desktop/programing/C++_programing/homework/artificial_intelligence/homework2/src/a_star.cpp",
+		"/Users/lisihan969/Desktop/programing/C++_programing/homework/artificial_intelligence/homework2/src/game_grid.h",
+		"/Users/lisihan969/Desktop/programing/C++_programing/homework/artificial_intelligence/homework2/src/a_star.h",
+		"/Users/lisihan969/Desktop/programing/C++_programing/homework/artificial_intelligence/homework2/src/game_grid.cpp",
+		"/Users/lisihan969/Downloads/2011012174——刘梓毅/problem2/videotape.cpp",
+		"/Users/lisihan969/Desktop/programing/C++_programing/homework/week_2/2013011187_李思涵/Problem2/videotape.h",
+		"/Users/lisihan969/Desktop/programing/C++_programing/homework/week_2/2013011187_李思涵/Problem2/main.cpp",
+		"/Users/lisihan969/Desktop/programing/C++_programing/homework/week_2/2013011187_李思涵/Problem3/hen.h",
+		"/Users/lisihan969/Desktop/programing/C++_programing/homework/week_2/2013011187_李思涵/Problem3/main.cpp",
+		"/Users/lisihan969/Desktop/programing/C++_programing/homework/week_2/2013011187_李思涵/Problem3/hen.cpp",
+		"/Users/lisihan969/Downloads/W2/Problem2/main.cpp",
+		"/Users/lisihan969/Downloads/W2/Problem1/makefile",
+		"/Users/lisihan969/Downloads/2011012174——刘梓毅/problem1/makefile",
+		"/Users/lisihan969/Downloads/2013011384_MaJianxin/Problem1/main.cc",
+		"/Users/lisihan969/Desktop/programing/C++_programing/homework/simple/4/ball/a.out",
+		"/Users/lisihan969/Desktop/programing/C++_programing/homework/simple/4/rectangle/main.cpp",
+		"/Users/lisihan969/Desktop/programing/C++_programing/homework/simple/4/priority_queue/priority_queue.h",
+		"/Users/lisihan969/Desktop/programing/C++_programing/homework/simple/4/priority_queue/makefile",
+		"/Users/lisihan969/Desktop/programing/C++_programing/homework/simple/4/rectangle/makefile",
+		"/Users/lisihan969/Desktop/programing/C++_programing/homework/simple/4/priority_queue/main.cpp",
+		"/Users/lisihan969/Desktop/programing/C++_programing/homework/simple/4/rectangle/rectangle.h",
+		"/Users/lisihan969/Desktop/programing/C++_programing/homework/simple/4/priority_queue/a.out",
+		"/Users/lisihan969/Desktop/programing/C++_programing/homework/simple/4/priority_queue/priority_queue.cpp",
+		"/Users/lisihan969/Desktop/programing/C++_programing/homework/simple/4/ball/ball.h",
+		"/Users/lisihan969/Desktop/programing/C++_programing/homework/simple/4/ball/main.cpp",
+		"/usr/gcc-4.8.2/include/c++/4.8.2/iostream",
+		"/Users/lisihan969/Library/Application Support/Sublime Text 3/Packages/User/SublimeCodeIntel.sublime-settings",
+		"/Users/lisihan969/Desktop/programing/C++_programing/homework/simple/4/ball/makefile",
+		"/Users/lisihan969/Desktop/programing/C++_programing/homework/simple/4/rectangle.h",
+		"/Users/lisihan969/Desktop/programing/C++_programing/homework/simple/4/rectangle.cpp",
+		"/Users/lisihan969/Library/Application Support/Sublime Text 3/Packages/User/C++/inputfile_cpp.sublime-snippet",
+		"/Users/lisihan969/Library/Application Support/Sublime Text 3/Packages/User/C++/outputfile_cpp.sublime-snippet",
+		"/Users/lisihan969/Library/Application Support/Sublime Text 3/Packages/User/C++/argc_check.sublime-snippet",
+		"/Users/lisihan969/Desktop/programing/C++_programing/homework/artificial_intelligence/homework1/src/main.cpp",
+		"/Users/lisihan969/Library/Application Support/Sublime Text 3/Packages/C++/inputfile_cpp.sublime-snippet",
+		"/Users/lisihan969/Library/Application Support/Sublime Text 3/Packages/C++/outputfile_cpp.sublime-snippet",
+		"/Users/lisihan969/Library/Application Support/Sublime Text 3/Packages/C++/exit_failure.sublime-snippet",
+		"/Users/lisihan969/Library/Application Support/Sublime Text 3/Packages/C++/030-for-int-loop-(fori).sublime-snippet",
+		"/Users/lisihan969/Library/Application Support/Sublime Text 3/Packages/C++/exit_failure_c.sublime-snippet",
+		"/Users/lisihan969/Library/Application Support/Sublime Text 3/Packages/C++/010-main()-(main).sublime-snippet",
+		"/Users/lisihan969/Library/Application Support/Sublime Text 3/Packages/C++/basic-beginning.sublime-snippet",
+		"/Users/lisihan969/Library/Application Support/Sublime Text 3/Packages/C++/#ifndef-#define-#endif.sublime-snippet",
+		"/Users/lisihan969/Library/Application Support/Sublime Text 3/Packages/User/bh_core.sublime-settings",
+		"/Users/lisihan969/Library/Application Support/Sublime Text 3/Packages/User/bh_unicode_properties.cache",
+		"/Users/lisihan969/Desktop/goagent.sh",
+		"/Users/lisihan969/Downloads/网站培训.md",
+		"/Users/lisihan969/Desktop/programing/C++_programing/homework/artificial_intelligence/2013011187_李思涵_homework1/Readme.txt",
+		"/Users/lisihan969/Desktop/programing/C++_programing/homework/artificial_intelligence/homework_1/src/back_track_sudoku.cpp",
+		"/Users/lisihan969/Desktop/programing/C++_programing/homework/artificial_intelligence/homework_1/src/back_track_sudoku.h",
+		"/Users/lisihan969/Desktop/programing/C++_programing/homework/simple/3/rectangle/rectangle.h",
+		"/Users/lisihan969/Desktop/programing/C++_programing/homework/simple/3/rectangle/rectangle.cpp",
+		"/Users/lisihan969/Desktop/programing/C++_programing/homework/simple/3/rectangle/main.cpp",
+		"/Users/lisihan969/Desktop/programing/C++_programing/homework/simple/3/circle/circle.h",
+		"/Users/lisihan969/Desktop/programing/C++_programing/homework/simple/3/circle/circle.cpp",
+		"/Users/lisihan969/Desktop/programing/C++_programing/homework/simple/3/vehicle/main.cpp",
+		"/Users/lisihan969/Desktop/programing/C++_programing/homework/simple/3/vehicle/vehicle.h",
+		"/Users/lisihan969/Desktop/programing/python/exercise/fibo.py"
+	],
+	"find":
+	{
+		"height": 29.0
+	},
+	"find_in_files":
+	{
+		"height": 99.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"ReadTag",
+			"uint32",
+			"IsFlat",
+			"backquote",
+			"backspace",
+			"super+k",
+			"ctrl+k",
+			"super+k",
+			"ctrl+k",
+			"backquote",
+			"console",
+			"ctrl",
+			"crtl",
+			"`",
+			"ctrl+`",
+			"dist",
+			"j",
+			"tab",
+			"bar",
+			"status",
+			"status bar",
+			"free",
+			"\"",
+			"std",
+			"path",
+			"header",
+			"include",
+			"*",
+			"display",
+			"get_",
+			"  ",
+			"display",
+			"i",
+			"static_cast<double>(winNow.QuadPart - winStart.Qua",
+			"(double)",
+			"for (",
+			"QueryPerformanceFrequency (",
+			"QueryPerformanceCounter (",
+			"QueryPerformanceCounter ",
+			"1000",
+			"printf ",
+			"vector",
+			"grid",
+			"solution",
+			"IsGoal",
+			"p_same_node",
+			"grid_",
+			".",
+			"parent_",
+			"moved_direction_",
+			"f_",
+			"h_",
+			"h(",
+			"g_",
+			"h_",
+			"h",
+			"h_",
+			"g_",
+			"std::endl",
+			"std::cout",
+			"cout",
+			"data",
+			"tail",
+			"p_node",
+			"ball_array",
+			"0",
+			"Area",
+			"dice",
+			"y",
+			"x",
+			"lower_left",
+			"solution.size()",
+			"g",
+			"same_node",
+			",",
+			"() ",
+			"kSize",
+			"->grid_",
+			"old_node",
+			"SearchInOpen",
+			"Queue",
+			"std::dequeue<Node *>",
+			".",
+			"};\n",
+			"zero_col",
+			"zero_row",
+			"kSzie",
+			"kSIZE",
+			"fin",
+			"new",
+			"&",
+			"setoff",
+			"n",
+			"number",
+			"1",
+			"new_num",
+			"num",
+			"grid",
+			"if",
+			"super+f",
+			"int",
+			"super+k",
+			"super+u",
+			"super+shift+u",
+			"super",
+			"super+g",
+			"super+j",
+			"shift+right",
+			"close",
+			"[]",
+			"ruler",
+			"ctrl+f",
+			"\"up\"",
+			"super+k",
+			"delete",
+			"bracket"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "src/converter.cpp",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 23,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close"
+							],
+							"syntax": "Packages/C++/C++.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "src/converter.h",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 391,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								305,
+								305
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close"
+							],
+							"codeintel": true,
+							"codeintel_config":
+							{
+								"JavaScript":
+								{
+									"codeintel_max_recursive_dir_depth": 2,
+									"codeintel_scan_files_in_project": false,
+									"javascriptExtraPaths":
+									[
+									]
+								},
+								"PHP":
+								{
+									"codeintel_max_recursive_dir_depth": 5,
+									"codeintel_scan_files_in_project": false,
+									"phpExtraPaths":
+									[
+									]
+								},
+								"Python":
+								{
+									"env":
+									{
+									}
+								}
+							},
+							"codeintel_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_live": true,
+							"codeintel_live_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_max_recursive_dir_depth": 10,
+							"codeintel_scan_exclude_dir":
+							{
+								"JavaScript":
+								[
+									"/build/",
+									"/min/"
+								]
+							},
+							"codeintel_scan_files_in_project": true,
+							"codeintel_selected_catalogs":
+							[
+								"PyWin32",
+								"jQuery",
+								"Rails"
+							],
+							"codeintel_snippets": true,
+							"codeintel_syntax_map":
+							{
+								"Python Django": "Python"
+							},
+							"codeintel_tooltips": "popup",
+							"sublime_auto_complete": true,
+							"syntax": "Packages/C++/C++.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 29.0
+	},
+	"input":
+	{
+		"height": 91.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 175.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.markdown":
+	{
+		"height": 136.0
+	},
+	"project": "text_to_ascii_art.sublime-project",
+	"replace":
+	{
+		"height": 54.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"common.h",
+				"stubs/common.h"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"~/programing/C++_programing/wordament/wordament.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 185.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
