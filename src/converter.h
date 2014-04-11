@@ -7,7 +7,7 @@
 #include <utility>
 #include <vector>
 
-#include "typeface.h"
+#include "font.h"
 
 namespace text_to_ascii_art {
 
