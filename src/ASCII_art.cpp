@@ -14,28 +14,26 @@ public:
     character()
     {       //Set m to ' '
         for (int i = 0; i < 73; ++i)
-        {
             for (int j = 0; j < 51; ++j)
-            {
                 m[i][j] = ' ';
-            }
-        }
     }
     
 
-    void Set(int *pt_start, int *pt_end, int start_size, int end_size);
+    void Set(int pt_start[10], int pt_end[10]);
     //pt_start[0] is y-coordinate of start_line
     //pt_end[0] is y-coordinate of end_line
+    //line size does not include non-data zeros
+    //array[9] is line size
     void Display();
 
 private:
     char m[73][51];     //73*50 size character
 };
 
-void character::Set(int *pt_start, int *pt_end, int pt_start_size, int pt_end_size)
+void character::Set(int pt_start[10], int pt_end[10])
 {
     int pattern = 0;        //NOT Changing
-    for (int i = 1; i < pt_start_size; ++i)
+    for (int i = 1; i < pt_start[9]; ++i)
     {   
         if (pt_start[i] < 0)
         {
@@ -48,7 +46,7 @@ void character::Set(int *pt_start, int *pt_end, int pt_start_size, int pt_end_si
     if (pattern == 0)       //0-pattern means: all lines are the same as the start_line, until reach the end_line.
     {
         int k = 1;
-        while (k < pt_start_size && pt_start[k] >= 0)
+        while (k < pt_start[9] && pt_start[k] >= 0)
         {
             for (int i = pt_start[k]; i < pt_start[k+1]; ++i)
             {
@@ -67,7 +65,7 @@ void character::Set(int *pt_start, int *pt_end, int pt_start_size, int pt_end_si
     if (pattern == -1)
     {
         int k = 1;
-        while (k < pt_start_size && k < pt_end_size && pt_start[k] >= 0)
+        while (k < pt_start[9] && k < pt_end[9] && pt_start[k] >= 0)
         {
             for (int i = pt_start[0]; i > pt_end[0]; --i)
             {
@@ -95,43 +93,60 @@ void character::Display()   //Display with cout
     }
 }
 
+void Load_font_data(int save[20][10], std::ifstream& fp, char ch)
+{
+    fp.seekg(0);
+    while (fp.get() != ch)                          //search for character ch
+        ;
+    fp.get();       //ignore '\n'
+    for (int i = 0; i < 20; ++i)
+    {
+        int &line_size = save[i][9];                //save[i][9] is the line size
+        while (fp && fp.peek() != '\n')
+        {
+            fp >> save[i][line_size];
+            ++ line_size;                           //save the line size
+        }
+        fp.get();                                   //ignore '\n'
+        if (save[i][0] == 0)                        //all information of character ch has been loaded
+            break;
+   }
+   return;        
+}
+
 
 int main(void)
 {
-    std::ifstream fin("FontData-A.txt");      //There are only parameters of character A... and are pure number...
+    std::ifstream fin("FontData.txt");      
     if (!fin.is_open())
     {
         std::cout << "Fail to load the file!" << std::endl;
         exit(1);
     }
 
-    character A;
-
     while (true)
     {
-    //get start array and end array.
-        int start[10] = {0}, end[10] = {0};
-        int start_size = 0, end_size = 0;
-        int pos;
+        char ch = 'A';
 
-        while (fin && fin.peek() != '\n')
-        {
-            fin >> start[start_size];
-            ++ start_size;
-        }
-        fin.get();              //get '\n'
-        pos = fin.tellg();      //record position of last line
-        while (fin && fin.peek() != '\n')
-        {
-            fin >> end[end_size];
-            ++ end_size;
-        }
-        fin.get();              //get '\n'
-        A.Set(start, end, start_size, end_size);
-        if (end[0] == 0)        //if y-coordinate of end_line is zero, then break;
+        std::cout << "To convert: ";
+        std::cin >> ch;
+        ch = toupper(ch);
+        if (ch < 'A' || ch > 'K')       //FontData need to be completed
             break;
-        fin.seekg(pos);         //move the read pointer to last line...
-    }
-    A.Display();                //Display...
+        std::cout << std::endl;
+
+        int temp_save[20][10] = {};
+        Load_font_data(temp_save, fin, ch);
+
+        character letter;
+
+        for (int i = 0; i < 20; ++i)
+        {
+            letter.Set(temp_save[i], temp_save[i+1]);
+            if (temp_save[i+1][0] == 0)
+                break;
+        }
+        letter.Display();
+    }        
     return 0;
 }
