@@ -1,6 +1,8 @@
 #include <fstream>
 #include <iostream>
 #include <cstdlib>
+#define HeightRatio 1
+#define WidthRatio 1.4
 
 //Divide the interval(start,end) into n parts and calculate NO.t term...
 inline int Interpolation(int start, int end, int n, int t)
@@ -13,8 +15,8 @@ class character
 public:
     character()
     {       //Set m to ' '
-        for (int i = 0; i < 73; ++i)
-            for (int j = 0; j < 51; ++j)
+        for (int i = 0; i < HeightRatio * 73; ++i)
+            for (int j = 0; j < WidthRatio * 51; ++j)
                 m[i][j] = ' ';
     }
     
@@ -27,7 +29,7 @@ public:
     void Display();
 
 private:
-    char m[73][51];     //73*50 size character
+    char m[int(HeightRatio * 73) + 1][int(WidthRatio * 51) + 1];     //73*HeightRatio * 50*WidthRatio size character
 };
 
 void character::Set(int pt_start[10], int pt_end[10])
@@ -48,15 +50,15 @@ void character::Set(int pt_start[10], int pt_end[10])
         int k = 1;
         while (k < pt_start[9] && pt_start[k] >= 0)
         {
-            for (int i = pt_start[k]; i < pt_start[k+1]; ++i)
+            for (int i = WidthRatio * pt_start[k]; i < WidthRatio * pt_start[k+1]; ++i)
             {
                 m[pt_start[0]][i] = filler;
             }
             k += 2;         //every two points make an interval(pt_start[k],pt_start[k+1]) filled with filler
         }
-        for (int i = pt_start[0] - 1; i > pt_end[0]; --i)
+        for (int i = HeightRatio * (pt_start[0] - 1); i > HeightRatio * pt_end[0]; --i)
         {
-            for (int j = 0; j < 51; ++j)
+            for (int j = 0; j < WidthRatio * 51; ++j)
             {
                 m[i][j] = m[pt_start[0]][j];    //all lines are the same as the start_line
             }
@@ -67,10 +69,10 @@ void character::Set(int pt_start[10], int pt_end[10])
         int k = 1;
         while (k < pt_start[9] && k < pt_end[9] && pt_start[k] >= 0)
         {
-            for (int i = pt_start[0]; i > pt_end[0]; --i)
+            for (int i = HeightRatio * pt_start[0]; i > HeightRatio * pt_end[0]; --i)
             {
-                for (int j = Interpolation(pt_start[k], pt_end[k], pt_start[0] - pt_end[0], pt_start[0] - i); 
-                         j < Interpolation(pt_start[k+1], pt_end[k+1], pt_start[0] - pt_end[0], pt_start[0] - i); ++j)
+                for (int j = WidthRatio * Interpolation(pt_start[k], pt_end[k], pt_start[0] - pt_end[0], pt_start[0] - i); 
+                         j < WidthRatio * Interpolation(pt_start[k+1], pt_end[k+1], pt_start[0] - pt_end[0], pt_start[0] - i); ++j)
                 {
                     m[i][j] = filler;
                 }
@@ -83,9 +85,9 @@ void character::Set(int pt_start[10], int pt_end[10])
 
 void character::Display()   //Display with cout
 {
-    for (int i = 72; i >= 0; --i)
+    for (int i = HeightRatio * 72; i >= 0; --i)
     {
-        for (int j = 0; j < 51; ++j)
+        for (int j = 0; j < WidthRatio * 51; ++j)
         {
             std::cout << m[i][j];
         }
@@ -131,7 +133,7 @@ int main(void)
         std::cout << "To convert: ";
         std::cin >> ch;
         ch = toupper(ch);
-        if (ch < 'A' || ch > 'K')       //FontData need to be completed
+        if (ch < 'A' || ch > 'Z')       //FontData need to be completed
             break;
         std::cout << std::endl;
 
